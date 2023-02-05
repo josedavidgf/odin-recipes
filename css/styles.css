@@ -1,7 +1,7 @@
 /* styles.css */
 
 div {
-    color: white;
+    color: wheat;
 }
 p {
     /* hex example: */
@@ -10,4 +10,20 @@ p {
     color: rgb(100, 0, 127);
     /* hsl example: */
     color: hsl(15, 82%, 56%);
+  }
+  img {
+    height: auto;
+    width: 500px;
+  }
+/* rule 1 */
+#subsection {
+    color: blue;
+  }
+  
+  /* rule 2 */
+  .main .list {
+    color: red;
+  }
+  * {
+    border: 2px solid red;
   }
